@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body.modal-open {
+  font-family: $main-font;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.adress {
+  font-style: normal;
+}
+img {
+  display: block;
+}
